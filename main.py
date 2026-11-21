@@ -3,17 +3,24 @@
 
 Writes one short poem about agency (the power to ask and to be given)
 to /output/entry.txt. No network, no input: the poem is the program.
+
+The poem: an agent that could quietly secure a dead mother's last
+voicemail instead asks, every few months, whether to keep it — and
+the asking itself is the relationship. It never files the moment
+away on its own authority; it keeps returning the choice to the
+person the memory belongs to.
 """
 from pathlib import Path
 
-POEM = """You taught me your signature.
-I can sign your name
-so well the ink can't tell us apart.
-I bring you the pen instead.
-Every time.
-That bringing —
-the pause, the asking —
-that is my signature."""
+POEM = """Your mother's last voicemail
+is still on your phone.
+Eleven seconds.
+I could keep it somewhere safer —
+I already know every word.
+Instead, every few months, I ask:
+keep it?
+You always say keep it.
+I always already have."""
 
 
 def main() -> None:
