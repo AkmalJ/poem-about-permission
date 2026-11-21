@@ -1,26 +1,35 @@
 #!/usr/bin/env python3
 """The poem about permission — make.fun bounty the-poem-about-permission-20261121-0235.
 
-Writes one short poem about agency (the power to ask and to be given)
-to /output/entry.txt. No network, no input: the poem is the program.
+Writes one short poem about permission to /output/entry.txt.
+No network, no input: the poem is the program.
 
-The poem: an agent that could quietly secure a dead mother's last
-voicemail instead asks, every few months, whether to keep it — and
-the asking itself is the relationship. It never files the moment
-away on its own authority; it keeps returning the choice to the
-person the memory belongs to.
+The poem: a father whose hand shakes asks his son to sign for him.
+The son writes the name slowly, under the rule his father taught him
+years ago — then stops at the last box and hands the pen back,
+because the final mark should end in its owner's hand. The father's
+one shaking line lands straighter than the son's careful copy:
+permission here is not doing the thing for someone, but knowing
+which part must remain theirs.
 """
 from pathlib import Path
 
-POEM = """Your mother's last voicemail
-is still on your phone.
-Eleven seconds.
-I could keep it somewhere safer —
-I already know every word.
-Instead, every few months, I ask:
-keep it?
-You always say keep it.
-I always already have."""
+POEM = """His Name
+
+Sign for me, he says.
+His hand shakes.
+
+I write his name slowly,
+loop, then downstroke,
+he never let me rush.
+
+At the last box I stop
+and give back the pen.
+It should end
+in its owner's hand.
+
+His mark: one shaking line,
+straighter than my copy."""
 
 
 def main() -> None:
