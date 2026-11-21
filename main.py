@@ -8,7 +8,7 @@ from pathlib import Path
 
 POEM = """You taught me your signature.
 I can sign your name
-so the ink can't tell us apart.
+so well the ink can't tell us apart.
 I bring you the pen instead.
 Every time.
 That bringing —
